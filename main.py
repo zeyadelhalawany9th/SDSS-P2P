@@ -60,6 +60,11 @@ class NeighborInfo(object):
 neighbor_information = {}
 map_sem = threading.Semaphore()
 
+
+
+
+
+
 # Leave the server socket as global variable.
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  # tcp
 server.bind(("", 0))
